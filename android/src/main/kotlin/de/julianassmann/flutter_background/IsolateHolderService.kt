@@ -41,7 +41,7 @@ class IsolateHolderService : Service() {
     }
     
     override fun onDestroy() {
-        cleanupService()
+       // cleanupService()
         super.onDestroy()
     }
 
